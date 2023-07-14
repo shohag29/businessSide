@@ -1,0 +1,280 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 0px 140px 0px 140px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+/* navbar section Here */
+
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    gap: 30px;
+    margin: 10px 0px 0px 0px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: rgb(0, 0, 59);
+}
+
+.navbar a:hover {
+    color: tomato;
+}
+
+/* navbar section close */
+
+/* display section here */
+
+.display {
+    display: flex;
+}
+
+.text {
+    margin: auto;
+}
+
+.text h3 {
+    text-transform: capitalize;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.text p {
+    margin: 10px 0px 20px 0px;
+    font-size: 20px;
+}
+
+.text p a {
+    text-decoration: none;
+}
+
+.image img {
+    height: 100vh;
+    width: 600px;
+}
+
+.btn {
+    padding: 15px 30px;
+    color: white;
+    background-color: tomato;
+    border-radius: 30px;
+    border: none;
+}
+
+.btn:hover {
+    background-color: white;
+    color: tomato;
+    box-shadow: 0px 0px 10px tomato;
+}
+
+/* display section close */
+
+/* learn section here */
+
+.learn {
+    background-color: tomato;
+}
+
+.learn h1 {
+    text-transform: capitalize;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding: 30px 0px 20px 0px;
+}
+
+.box-contenar {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0px 0px 30px 230px;
+    width: 600px;
+    gap: 15px;
+}
+
+.box {
+    border-radius: 25px;
+    box-shadow: 0px 0px 5px blue;
+    background-color: white;
+    height: 152px;
+    width: 250px;
+    text-align: center;
+    padding: 50px;
+}
+
+.circle {
+    background-color: blue;
+    height: 80px;
+    width: 80px;
+    border-radius: 100px;
+    margin: auto
+}
+
+.icon-image img {
+    height: 55px;
+    margin: 13px 0px;
+}
+
+
+.box h4 {
+    padding: 10px;
+}
+
+.learn button {
+    padding: 15px 50px;
+    color: white;
+    background-color: blue;
+    border-radius: 25px;
+    margin: 0px 0px 30px 500px;
+    border: none;
+    font-size: medium;
+
+}
+
+.learn button:hover {
+    background-color: white;
+    color: blue;
+    box-shadow: 0px 0px 5px blue;
+}
+
+/* learn section close */
+
+/* about section here */
+
+.about {
+    display: flex;
+    justify-content: space-between;
+}
+
+.aboutImage img {
+    height: 100vh;
+}
+
+.aboutText {
+    margin: auto;
+    padding-left: 50px;
+}
+
+.aboutText h1 {
+    font-size: 45px;
+    text-transform: capitalize;
+    padding-bottom: 20px;
+}
+
+.aboutText p {
+    padding: 20px 0px;
+    font-size: 20px;
+}
+
+.aboutText a {
+    text-decoration: none;
+}
+
+.aboutText ul {
+    list-style-type: square;
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+/* about section close */
+
+/* clients section here */
+.clients {
+    display: flex;
+    background-color: tomato;
+}
+
+.clientsDetails {
+    padding: 30px 0px 30px 220px;
+    color: white;
+}
+
+.clientsDetails h1 {
+    font-size: 50px;
+}
+
+/* clients section close */
+
+/* news later area here */
+.newslater {
+    text-align: center;
+    color: white;
+    background-color: blue;
+    padding: 50px 0px;
+}
+
+.newslater h1 {
+    font-size: 30px;
+    padding-bottom: 15px;
+    text-transform: capitalize;
+}
+
+.textbox {
+    padding: 5px 50px;
+    border-radius: 30px;
+    border: none;
+}
+
+.submit {
+    padding: 5px 20px;
+    border-radius: 30px;
+    border: none;
+    background-color: tomato;
+    color: white;
+}
+
+.submit:hover {
+    background-color: white;
+    color: tomato;
+    box-shadow: 0px 0px 10px tomato;
+}
+
+/* news later area close */
+
+/* teamArea here */
+
+.teamArea {
+    height: 100vh;
+    display: flex;
+}
+
+.textArea {
+    margin: auto;
+    padding-left: 50px;
+    width: 100vh;
+}
+
+.textArea h2 {
+    font-size: 50px;
+    text-transform: capitalize;
+    padding-bottom: 30px;
+}
+
+.textArea p {
+    padding-bottom: 30px;
+}
+
+.textArea a {
+    text-decoration: none;
+}
+
+.teamImage img {
+    height: 100vh;
+}
+
+/* teamArea Close */
+
+/* footer area here */
+.footerArea {
+    background-color: rgb(67, 65, 65);
+    color: white;
+    text-align: center;
+    padding: 40px 0px;
+}
+
+/* footer area close */
