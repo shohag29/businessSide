@@ -200,6 +200,39 @@ body {
 
 /* clients section close */
 
+/* teamArea here */
+
+.teamArea {
+    height: 100vh;
+    display: flex;
+}
+
+.textArea {
+    margin: auto;
+    padding-left: 50px;
+    width: 100vh;
+}
+
+.textArea h2 {
+    font-size: 50px;
+    text-transform: capitalize;
+    padding-bottom: 30px;
+}
+
+.textArea p {
+    padding-bottom: 30px;
+}
+
+.textArea a {
+    text-decoration: none;
+}
+
+.teamImage img {
+    height: 100vh;
+}
+
+/* teamArea Close */
+
 /* news later area here */
 .newslater {
     text-align: center;
@@ -235,39 +268,6 @@ body {
 }
 
 /* news later area close */
-
-/* teamArea here */
-
-.teamArea {
-    height: 100vh;
-    display: flex;
-}
-
-.textArea {
-    margin: auto;
-    padding-left: 50px;
-    width: 100vh;
-}
-
-.textArea h2 {
-    font-size: 50px;
-    text-transform: capitalize;
-    padding-bottom: 30px;
-}
-
-.textArea p {
-    padding-bottom: 30px;
-}
-
-.textArea a {
-    text-decoration: none;
-}
-
-.teamImage img {
-    height: 100vh;
-}
-
-/* teamArea Close */
 
 /* footer area here */
 .footerArea {
