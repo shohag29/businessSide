@@ -32,6 +32,7 @@ body {
 /* display section here */
 
 .display {
+    height: 96vh;
     display: flex;
 }
 
@@ -55,7 +56,7 @@ body {
 }
 
 .image img {
-    height: 100vh;
+    height: 96vh;
     width: 600px;
 }
 
@@ -79,6 +80,8 @@ body {
 
 .learn {
     background-color: tomato;
+    height: 100vh;
+    width: 100%
 }
 
 .learn h1 {
@@ -86,13 +89,13 @@ body {
     color: white;
     font-size: 30px;
     text-align: center;
-    padding: 30px 0px 20px 0px;
+    padding: 25px 0px 10px 0px;
 }
 
 .box-contenar {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding: 30px 20%;
+    padding: 20px 20%;
     width: 600px;
     gap: 15px;
 }
@@ -147,6 +150,7 @@ body {
 /* about section here */
 
 .about {
+    height: 100vh;
     display: flex;
     justify-content: space-between;
 }
